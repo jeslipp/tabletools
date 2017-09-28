@@ -4,8 +4,8 @@
 \alias{prefilter_counts}
 \title{Filter a count matrix by a minimum value in a selected set of columns}
 \usage{
-prefilter_counts(file, cols, min_count = 50, id_col = "id")
+prefilter_counts(counts, cols, min_count = 50)
 }
 \description{
-This function pre-filters a count matrix for statistical analysis with e.g. MAGeCK
+This function pre-filters a count matrix before statistical analysis with e.g. MAGeCK
 }

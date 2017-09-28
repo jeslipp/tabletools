@@ -4,3 +4,4 @@ R/.DS_Store
 .Rbuildignore
 man/.Rapp.history
 tabletools.Rproj
+.Rproj.user

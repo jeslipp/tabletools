@@ -14,5 +14,8 @@ Imports:
     dplyr (>= 0.7.0),
     magrittr,
     preprocessCore,
-    purrr, 
-    tibble
+    purrr,
+    reshape2,
+    rlang, 
+    tibble,
+    tidyr

@@ -6,14 +6,8 @@
 
 normalize_counts <- function(counts, method = "none") {
 
-  if (sum(sapply(counts, is.numeric)) < 2) {
-    stop("`counts` contains less than 2 numerical columns", call. = FALSE)
-  }
-
-  counts %>%
-    dplyr::select_if(is.numeric) %>%
-    as.matrix -> mat
-
+  mat <- extract_numeric_part(counts) %>%
+    as.matrix
   col_names <- colnames(mat)
 
   if (method == "quantile") {

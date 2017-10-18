@@ -4,7 +4,7 @@
 \alias{merge_counts}
 \title{Merge specific columns of a count matrix}
 \usage{
-merge_counts(x, cols)
+merge_counts(x, cols, agg_fun)
 }
 \description{
 This function merges columns of a count matrix before statistical analysis with e.g. MAGeCK

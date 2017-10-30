@@ -16,6 +16,7 @@ Imports:
     preprocessCore,
     purrr,
     reshape2,
-    rlang, 
+    rlang,
+    stringi, 
     tibble,
     tidyr
